@@ -55,4 +55,28 @@ Examples:
 |Akhi12213|Selenium31|Manual61|
 |Akhi78551|Selenium178|Manual71|
 |Akhi54221|Selenium781|Manual61|
+@Adduser
+Scenario Outline:
+i want add multiple Employees
+Given i launch  url "http://orangehrm.qedgetech.com/" in a browser
+Then i want to check login button displayed
+When i enter "Admin" in username 
+And i enter "Qedge123!@#" in password
+And i click login button
+And navigate to Add Employee
+And i enter "<Firstname>" in first name
+And i enter "<Middlename>" in middle name
+And i enter "<LastName>" in last name
+And i capture employee id
+And i click save button
+Then validate employee id in table
+When i close browser
+Examples:
+|Firstname|Middlename|LastName|
+|Akhi1|Selenium1|Manual1|
+|Akhi8156|Selenium71|Manual61|
+|Akhi3123|Selenium81|Manual91|
+|Akhi12213|Selenium31|Manual61|
+|Akhi78551|Selenium178|Manual71|
+|Akhi54221|Selenium781|Manual61|
 
