@@ -73,10 +73,10 @@ Then validate employee id in table
 When i close browser
 Examples:
 |Firstname|Middlename|LastName|
-|Akhi1|Selenium1|Manual1|
-|Akhi8156|Selenium71|Manual61|
-|Akhi3123|Selenium81|Manual91|
-|Akhi12213|Selenium31|Manual61|
-|Akhi78551|Selenium178|Manual71|
-|Akhi54221|Selenium781|Manual61|
+|test|ramu|raju|
+|akhi|Selenium71|Manual61|
+|teja|Selenium81|Manual91|
+|ramu|Selenium31|Manual61|
+|john|Selenium178|Manual71|
+|abdul|Selenium781|Manual61|
 
